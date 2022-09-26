@@ -48,7 +48,7 @@ int main()
 
     }
 
-     cout << "Highest sales: " << max << max_store << endl;
+     cout << "Highest sales: " << max << endl;
 
  
 
@@ -71,3 +71,20 @@ int main()
         }
 
     }
+
+     cout << "Lowest sales: " << min << endl;
+
+     float sum = 0;
+
+    for(int i = 0;i < n;i++)
+
+    {
+
+          sum += arr[i];
+
+   }
+
+    cout << "Average sales: " << sum/10;
+
+}
+
