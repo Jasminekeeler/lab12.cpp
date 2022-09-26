@@ -12,7 +12,7 @@ int main()
 
     int arr[n];
 
-    cout << "Enter sales numbers:" << endl;
+    cout << "Enter 10 sales numbers:" << endl;
 
     for(int i = 0;i < n;i++)
 
