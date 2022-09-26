@@ -12,7 +12,7 @@ int main()
 
     int arr[n];
 
-    cout << "Enter the daily sales of ten stores:" << endl;
+    cout << "Enter sales numbers:" << endl;
 
     for(int i = 0;i < n;i++)
 
@@ -48,7 +48,7 @@ int main()
 
     }
 
-     cout << "Highest sale: " << max << " Store number: " << max_store << endl;
+     cout << "Highest sales: " << max << max_store << endl;
 
  
 
@@ -71,20 +71,3 @@ int main()
         }
 
     }
-
-     cout << "Lowest sale: " << min << " Store number: " << min_store << endl;
-
-     float sum = 0;
-
-    for(int i = 0;i < n;i++)
-
-    {
-
-          sum += arr[i];
-
-   }
-
-    cout << "Average of sales: " << sum/10;
-
-}
-
